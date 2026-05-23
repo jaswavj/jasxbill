@@ -4,12 +4,13 @@
 
   <!-- BASIC SEO -->
   <title>Billing Software in Nagercoil | GST Billing Software Tamil Nadu</title>
+    <link rel="icon" type="image/jpeg" href="jasxbill.jpeg">
   <meta charset="utf-8">
   <meta name="description" content="Professional billing software in Nagercoil providing GST billing, inventory, POS, pharmacy & hospital billing software. Services available across Tamil Nadu.">
   <meta name="keywords" content="billing software nagercoil, gst billing software tamil nadu, pos billing software, pharmacy billing software, hospital billing software">
   <meta name="author" content="Billing Software Services Nagercoil">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#1e40af">
+  <meta name="theme-color" content="#0d1f42">
 
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="Billing Software in Nagercoil - Tamil Nadu">
@@ -44,21 +45,23 @@
 
   <style>
     :root {
-      --gradient-start: #7c3aed;
-      --gradient-mid: #8b5cf6;
-      --gradient-end: #a78bfa;
-      --purple-dark: #5b21b6;
-      --purple-deep: #4c1d95;
-      --accent-green: #22c55e;
-      --accent-green-hover: #16a34a;
-      --white: #ffffff;
-      --gray-50: #f9fafb;
-      --gray-100: #f3f4f6;
-      --gray-600: #4b5563;
-      --gray-700: #374151;
-      --shadow-soft: 0 4px 20px rgba(124, 58, 237, 0.15);
-      --shadow-hover: 0 8px 30px rgba(124, 58, 237, 0.25);
-      --radius: 16px;
+      --navy-deep:    #0d1f42;
+      --navy-dark:    #152c5b;
+      --navy-mid:     #1e3a6e;
+      --navy-light:   #263f7a;
+      --gold:         #f0a500;
+      --gold-light:   #f5bc30;
+      --gold-dark:    #c98b00;
+      --gold-glow:    rgba(240, 165, 0, 0.28);
+      --white:        #ffffff;
+      --gray-50:      #f7f9fc;
+      --gray-100:     #edf0f7;
+      --gray-600:     #4b5563;
+      --gray-700:     #2d3748;
+      --shadow-soft:  0 4px 20px rgba(13, 31, 66, 0.14);
+      --shadow-hover: 0 8px 32px rgba(13, 31, 66, 0.24);
+      --shadow-gold:  0 4px 20px rgba(240, 165, 0, 0.30);
+      --radius:       16px;
     }
 
     * { 
@@ -69,7 +72,7 @@
     
     html, body { 
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: linear-gradient(to bottom, #faf5ff, #ffffff);
+      background: #f7f9fc;
       color: var(--gray-700);
       line-height: 1.6;
       overflow-x: hidden;
@@ -80,7 +83,7 @@
     
     h1, h2, h3, h4 { 
       font-family: 'Poppins', sans-serif;
-      color: var(--purple-deep);
+      color: var(--navy-deep);
       font-weight: 700;
     }
     
@@ -98,7 +101,7 @@
       left: 0;
       right: 0;
       z-index: 1000;
-      box-shadow: 0 2px 20px rgba(124, 58, 237, 0.08);
+      box-shadow: 0 2px 20px rgba(13, 31, 66, 0.10);
       padding: 15px 0;
     }
     
@@ -129,13 +132,13 @@
     }
     
     .nav-btn {
-      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
-      color: white;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--navy-deep);
       padding: 12px 28px;
       border-radius: 50px;
-      font-weight: 600;
+      font-weight: 700;
       font-size: 0.95rem;
-      box-shadow: var(--shadow-soft);
+      box-shadow: var(--shadow-gold);
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -144,13 +147,14 @@
     
     .nav-btn:hover {
       transform: translateY(-2px);
-      box-shadow: var(--shadow-hover);
+      box-shadow: 0 6px 28px rgba(240, 165, 0, 0.45);
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
     }
 
     /* HERO */
     .hero {
-      background: linear-gradient(135deg, #f3e8ff 0%, #faf5ff 50%, #ffffff 100%);
-      padding: 140px 0 80px;
+      background: linear-gradient(145deg, var(--navy-deep) 0%, var(--navy-dark) 50%, var(--navy-mid) 100%);
+      padding: 150px 0 90px;
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -159,11 +163,11 @@
     .hero::before {
       content: '';
       position: absolute;
-      top: -100px;
-      right: -100px;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(139, 92, 246, 0.15), transparent 70%);
+      top: -120px;
+      right: -120px;
+      width: 520px;
+      height: 520px;
+      background: radial-gradient(circle, rgba(240, 165, 0, 0.18), transparent 68%);
       border-radius: 50%;
       pointer-events: none;
     }
@@ -171,11 +175,11 @@
     .hero::after {
       content: '';
       position: absolute;
-      bottom: -50px;
-      left: -50px;
-      width: 400px;
-      height: 400px;
-      background: radial-gradient(circle, rgba(167, 139, 250, 0.1), transparent 70%);
+      bottom: -60px;
+      left: -60px;
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(240, 165, 0, 0.10), transparent 68%);
       border-radius: 50%;
       pointer-events: none;
     }
@@ -183,48 +187,109 @@
     .hero-content {
       position: relative;
       z-index: 1;
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto;
     }
-    
-    .hero-badges {
+
+    .hero-img-wrap {
+      margin-top: 52px;
       display: flex;
       justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-bottom: 32px;
+    }
+
+    .hero-img {
+      max-width: 720px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.40), 0 0 0 1px rgba(240,165,0,0.20);
+      border: 2px solid rgba(240,165,0,0.25);
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .hero-img { border-radius: 14px; }
     }
     
-    .badge {
-      background: white;
-      color: var(--gradient-start);
-      padding: 8px 20px;
+    .hero-tagline {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(240, 165, 0, 0.15);
+      border: 1px solid rgba(240, 165, 0, 0.40);
+      color: var(--gold-light);
+      padding: 7px 20px;
       border-radius: 50px;
       font-size: 0.875rem;
       font-weight: 600;
-      box-shadow: 0 2px 12px rgba(124, 58, 237, 0.12);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+
+    .hero-tagline i {
+      font-size: 0.8rem;
+    }
+
+    .hero-badges {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 36px;
+    }
+    
+    .badge {
+      background: rgba(255, 255, 255, 0.10);
+      backdrop-filter: blur(10px);
+      color: rgba(255,255,255,0.90);
+      padding: 9px 22px;
+      border-radius: 50px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.18);
       display: inline-flex;
       align-items: center;
-      gap: 6px;
+      gap: 7px;
+    }
+
+    .badge i {
+      color: var(--gold);
     }
     
     .hero h1 {
-      font-size: 3.75rem;
-      line-height: 1.15;
-      margin-bottom: 24px;
-      background: linear-gradient(135deg, var(--purple-deep), var(--gradient-start), var(--gradient-mid));
+      font-size: 4rem;
+      line-height: 1.12;
+      margin-bottom: 20px;
+      color: var(--white);
+      max-width: 100%;
+    }
+
+    .hero h1 .line1 {
+      display: block;
+      font-weight: 500;
+      font-size: 0.6em;
+      letter-spacing: 0.02em;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 4px;
+    }
+
+    .hero h1 .line2 {
+      display: block;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      word-wrap: break-word;
-      max-width: 100%;
+      font-weight: 800;
     }
     
     .hero p {
-      font-size: 1.25rem;
-      color: var(--gray-600);
-      margin-bottom: 40px;
-      line-height: 1.7;
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.68);
+      margin-bottom: 36px;
+      line-height: 1.8;
+      max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .btn-group {
@@ -247,28 +312,30 @@
     }
     
     .btn-primary {
-      background: var(--accent-green);
-      color: white;
-      box-shadow: 0 4px 16px rgba(34, 197, 94, 0.3);
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--navy-deep);
+      box-shadow: var(--shadow-gold);
+      font-weight: 700;
     }
     
     .btn-primary:hover {
-      background: var(--accent-green-hover);
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
       transform: translateY(-3px);
-      box-shadow: 0 6px 24px rgba(34, 197, 94, 0.4);
+      box-shadow: 0 6px 28px rgba(240, 165, 0, 0.45);
     }
     
     .btn-secondary {
-      background: white;
-      color: var(--purple-dark);
-      border: 2px solid var(--gradient-mid);
-      box-shadow: var(--shadow-soft);
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      color: white;
+      border: 2px solid rgba(240, 165, 0, 0.50);
     }
     
     .btn-secondary:hover {
-      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
-      color: white;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--navy-deep);
       border-color: transparent;
+      font-weight: 700;
     }
 
     /* SECTIONS */
@@ -280,6 +347,7 @@
       font-size: 2.75rem;
       margin-bottom: 16px;
       text-align: center;
+      color: var(--navy-deep);
     }
     
     .section-subtitle {
@@ -289,10 +357,19 @@
       font-size: 1.125rem;
       color: var(--gray-600);
     }
+    
+    .section-title-line {
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      border-radius: 4px;
+      margin: 12px auto 0;
+    }
 
     /* SERVICES */
     .services {
-      background: white;
+      background: var(--white);
     }
     
     .grid {
@@ -302,10 +379,10 @@
     }
     
     .service-card {
-      background: white;
+      background: var(--white);
       padding: 40px 32px;
       border-radius: var(--radius);
-      border: 2px solid #f3e8ff;
+      border: 2px solid var(--gray-100);
       transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
       position: relative;
       overflow: hidden;
@@ -318,13 +395,13 @@
       left: 0;
       right: 0;
       height: 4px;
-      background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
       transform: scaleX(0);
       transition: transform 0.4s ease;
     }
     
     .service-card:hover {
-      border-color: var(--gradient-mid);
+      border-color: var(--gold);
       transform: translateY(-8px);
       box-shadow: var(--shadow-hover);
     }
@@ -336,21 +413,21 @@
     .icon-box {
       width: 70px;
       height: 70px;
-      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
+      background: linear-gradient(135deg, var(--navy-deep), var(--navy-mid));
       border-radius: 16px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.75rem;
-      color: white;
+      color: var(--gold);
       margin-bottom: 24px;
-      box-shadow: 0 4px 16px rgba(124, 58, 237, 0.25);
+      box-shadow: 0 4px 16px rgba(13, 31, 66, 0.20);
     }
     
     .service-card h3 {
       font-size: 1.375rem;
       margin-bottom: 12px;
-      color: var(--purple-deep);
+      color: var(--navy-deep);
     }
     
     .service-card p {
@@ -361,7 +438,7 @@
 
     /* FEATURES */
     .features {
-      background: linear-gradient(to bottom, #faf5ff, white);
+      background: var(--gray-50);
     }
     
     .feature-list {
@@ -375,19 +452,20 @@
       align-items: flex-start;
       gap: 16px;
       padding: 28px;
-      background: white;
+      background: var(--white);
       border-radius: 14px;
-      box-shadow: 0 2px 16px rgba(124, 58, 237, 0.08);
+      border-left: 4px solid var(--gold);
+      box-shadow: var(--shadow-soft);
       transition: all 0.3s ease;
     }
     
     .feature-item:hover {
       transform: translateX(8px);
-      box-shadow: 0 4px 24px rgba(124, 58, 237, 0.15);
+      box-shadow: var(--shadow-hover);
     }
     
     .feature-icon {
-      color: var(--gradient-start);
+      color: var(--gold);
       font-size: 1.5rem;
       flex-shrink: 0;
     }
@@ -395,6 +473,7 @@
     .feature-text h4 {
       margin-bottom: 8px;
       font-size: 1.125rem;
+      color: var(--navy-deep);
     }
     
     .feature-text p {
@@ -405,9 +484,21 @@
 
     /* LOCATIONS */
     .locations {
-      background: linear-gradient(135deg, var(--purple-deep), var(--purple-dark));
+      background: linear-gradient(145deg, var(--navy-deep) 0%, var(--navy-dark) 60%, var(--navy-mid) 100%);
       color: white;
       text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .locations::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 350px; height: 350px;
+      background: radial-gradient(circle, rgba(240,165,0,0.14), transparent 65%);
+      border-radius: 50%;
+      pointer-events: none;
     }
     
     .locations h2 {
@@ -415,7 +506,7 @@
     }
     
     .locations p {
-      color: rgba(255, 255, 255, 0.8);
+      color: rgba(255, 255, 255, 0.78);
       max-width: 750px;
       margin: 0 auto 48px;
       font-size: 1.1rem;
@@ -429,23 +520,25 @@
     }
     
     .district-tag {
-      background: rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.10);
       backdrop-filter: blur(10px);
-      padding: 10px 20px;
+      padding: 10px 22px;
       border-radius: 50px;
       font-size: 0.95rem;
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(240, 165, 0, 0.30);
       transition: all 0.3s ease;
+      color: white;
     }
     
     .district-tag:hover {
-      background: rgba(255, 255, 255, 0.25);
+      background: rgba(240, 165, 0, 0.20);
+      border-color: var(--gold);
       transform: translateY(-2px);
     }
 
     /* CTA */
     .cta {
-      background: linear-gradient(135deg, var(--gradient-start), var(--purple-deep));
+      background: linear-gradient(145deg, var(--navy-deep), var(--navy-dark));
       color: white;
       text-align: center;
       border-radius: 24px;
@@ -454,7 +547,8 @@
       max-width: 1200px;
       position: relative;
       overflow: hidden;
-      box-shadow: 0 8px 32px rgba(124, 58, 237, 0.3);
+      box-shadow: 0 8px 40px rgba(13, 31, 66, 0.35);
+      border: 1px solid rgba(240, 165, 0, 0.20);
     }
     
     .cta::before {
@@ -464,7 +558,7 @@
       right: -20%;
       width: 400px;
       height: 400px;
-      background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 60%);
+      background: radial-gradient(circle, rgba(240, 165, 0, 0.12), transparent 60%);
       border-radius: 50%;
     }
     
@@ -476,27 +570,29 @@
     }
     
     .cta p {
-      color: rgba(255, 255, 255, 0.9);
+      color: rgba(255, 255, 255, 0.85);
       margin-bottom: 40px;
       font-size: 1.15rem;
       position: relative;
     }
     
     .btn-white {
-      background: white;
-      color: var(--gradient-start);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--navy-deep);
+      font-weight: 700;
+      box-shadow: var(--shadow-gold);
     }
     
     .btn-white:hover {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
       transform: translateY(-3px);
-      box-shadow: 0 6px 28px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 6px 28px rgba(240, 165, 0, 0.45);
     }
 
     /* FOOTER */
     footer {
-      background: white;
-      border-top: 1px solid #f3e8ff;
+      background: var(--navy-deep);
+      border-top: 3px solid var(--gold);
       padding: 60px 0 30px;
     }
     
@@ -511,20 +607,20 @@
     .footer-brand h4 {
       font-size: 1.75rem;
       margin-bottom: 16px;
-      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     
     .footer-brand p {
-      color: var(--gray-600);
+      color: rgba(255,255,255,0.65);
       line-height: 1.8;
     }
     
     .footer-links h5 {
       margin-bottom: 20px;
       font-size: 1.125rem;
-      color: var(--purple-deep);
+      color: var(--gold);
     }
     
     .footer-links ul li {
@@ -532,26 +628,26 @@
     }
     
     .footer-links a {
-      color: var(--gray-600);
+      color: rgba(255,255,255,0.65);
       transition: all 0.3s ease;
     }
     
     .footer-links a:hover {
-      color: var(--gradient-start);
+      color: var(--gold);
       padding-left: 4px;
     }
     
     .copyright {
       text-align: center;
-      color: var(--gray-600);
+      color: rgba(255,255,255,0.45);
       font-size: 0.95rem;
-      border-top: 1px solid #f3f4f6;
+      border-top: 1px solid rgba(255,255,255,0.10);
       padding-top: 24px;
     }
 
     /* RESPONSIVE */
     @media (max-width: 1024px) {
-      .hero h1 { font-size: 3rem; }
+      .hero h1 { font-size: 3.25rem; }
       .section-title { font-size: 2.25rem; }
       .grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
     }
@@ -573,9 +669,8 @@
         overflow: hidden;
       }
       .hero h1 { 
-        font-size: 2rem; 
-        line-height: 1.25;
-        word-break: break-word;
+        font-size: 2.5rem; 
+        line-height: 1.18;
       }
       .hero p { 
         font-size: 1.05rem; 
@@ -663,9 +758,7 @@
         padding: 100px 0 50px;
       }
       .hero h1 { 
-        font-size: 1.75rem; 
-        word-break: break-word;
-        hyphens: auto;
+        font-size: 2rem;
       }
       .hero p { 
         font-size: 0.95rem; 
@@ -710,7 +803,7 @@
 <nav class="navbar">
   <div class="container nav-container">
     <div class="logo">
-      <img src="logo.png" alt="JasXbill Logo" style="height: 50px;"> 
+      <img src="logo.png" alt="JasXbill Logo" style="height: 50px;">
     </div>
     <a href="tel:+918667214152" class="nav-btn"><i class="fa-solid fa-phone"></i> +91 86672 14152</a>
   </div>
@@ -719,15 +812,19 @@
 <!-- HERO SECTION -->
 <header class="hero">
   <div class="container hero-content" data-aos="fade-up">
+    <h1>
+      <span class="line1">Professional</span>
+      <span class="line2">Billing Software</span>
+    </h1>
+    <p>Complete solution for Retail, Wholesale, Restaurant, Pharmacy and all types of businesses. Automate your business with smart, GST-ready tools.</p>
     <div class="hero-badges">
-      <span class="badge"><i class="fa-solid fa-check"></i> GST Ready</span>
-      <span class="badge"><i class="fa-solid fa-shield-halved"></i> Secure</span>
-      <span class="badge"><i class="fa-solid fa-cloud"></i> User Friendly</span>
+      <span class="badge"><i class="fa-solid fa-check-circle"></i> GST Ready</span>
+      <span class="badge"><i class="fa-solid fa-shield-halved"></i> Secure &amp; Reliable</span>
+      <span class="badge"><i class="fa-solid fa-bolt"></i> Easy to Use</span>
+      <span class="badge"><i class="fa-solid fa-headset"></i> Free Support</span>
     </div>
-    <h1>Professional Billing Software</h1>
-    <p>Complete solution for Retail, Wholesale, Restaurant, Pharmacy and All Type Of Shops and Businesses. Automate your business with Tamil Nadu's most trusted software.</p>
     
-    <div class="btn-group">
+    <div class="btn-group" style="margin-top:36px;">
       <a href="https://wa.me/918667214152" class="btn btn-primary">
         <i class="fa-brands fa-whatsapp"></i> Get Free Demo
       </a>
@@ -735,13 +832,14 @@
         Explore Features
       </a>
     </div>
+    
   </div>
 </header>
 
 <!-- SERVICES SECTION -->
 <section id="services" class="section-padding services">
   <div class="container">
-    <h2 class="section-title" data-aos="fade-up">Industry Solutions</h2>
+    <h2 class="section-title" data-aos="fade-up">Industry Solutions<span class="section-title-line"></span></h2>
     <p class="section-subtitle" data-aos="fade-up">Tailored billing solutions designed to meet the specific needs of your business type.</p>
     
     <div class="grid">
@@ -768,9 +866,9 @@
 
       <!-- Card 4 -->
       <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-        <div class="icon-box"><i class="fa-solid fa-hospital-user"></i></div>
-        <h3>Hospital & Clinic</h3>
-        <p>OP/IP billing, patient records, lab reports, and doctor appointment scheduling.</p>
+        <div class="icon-box"><i class="fa-solid fa-boxes-stacked"></i></div>
+        <h3>Wholesale</h3>
+        <p>Bulk order billing, party ledger management, and trade discount handling for wholesale businesses.</p>
       </div>
 
       <!-- Card 5 -->
@@ -793,7 +891,7 @@
 <!-- FEATURES SECTION -->
 <section class="section-padding features">
   <div class="container">
-    <h2 class="section-title" data-aos="fade-up">Why Choose JasXbill?</h2>
+    <h2 class="section-title" data-aos="fade-up">Why Choose JasXbill?<span class="section-title-line"></span></h2>
     <p class="section-subtitle" data-aos="fade-up">Powerful features that make business management effortless.</p>
     
     <div class="feature-list">
@@ -851,21 +949,10 @@
 <!-- LOCATION SECTION -->
 <section class="section-padding locations">
   <div class="container">
-    <h2 data-aos="fade-up">Serving Across Tamil Nadu</h2>
+    <h2 data-aos="fade-up">Serving Across <span style="background:linear-gradient(135deg,var(--gold),var(--gold-light));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Tamil Nadu</span></h2>
     <p data-aos="fade-up">Our dedicated support team is available in Nagercoil and provides remote installation across major districts.</p>
     
-    <div class="map-districts" data-aos="fade-up">
-      <span class="district-tag">📍 Nagercoil</span>
-      <span class="district-tag">📍 Chennai</span>
-      <span class="district-tag">📍 Coimbatore</span>
-      <span class="district-tag">📍 Madurai</span>
-      <span class="district-tag">📍 Tirunelveli</span>
-      <span class="district-tag">📍 Thoothukudi</span>
-      <span class="district-tag">📍 Trichy</span>
-      <span class="district-tag">📍 Salem</span>
-      <span class="district-tag">📍 Erode</span>
-      <span class="district-tag">📍 Kanyakumari</span>
-    </div>
+    
   </div>
 </section>
 
@@ -878,7 +965,7 @@
       <a href="tel:+918667214152" class="btn btn-white">
         <i class="fa-solid fa-phone"></i> Call Now: +91 86672 14152
       </a>
-      <a href="https://wa.me/918667214152" class="btn btn-secondary" style="background:rgba(255,255,255,0.2); border:none; color:white;">
+      <a href="https://wa.me/918667214152" class="btn btn-secondary" style="background:rgba(255,255,255,0.12); border:2px solid rgba(240,165,0,0.50); color:white;">
         <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
       </a>
     </div>
@@ -892,6 +979,16 @@
       <div class="footer-brand">
         <h4>JasXbill</h4>
         <p>Professional Billing Solutions<br>Nagercoil, Tamil Nadu, IN</p>
+        <p style="margin-top:12px;">
+          <a href="mailto:jasxbill@gmail.com" style="color:var(--gold);display:inline-flex;align-items:center;gap:7px;font-size:0.95rem;">
+            <i class="fa-solid fa-envelope"></i> jasxbill@gmail.com
+          </a>
+        </p>
+        <p style="margin-top:6px;">
+          <a href="tel:+918667214152" style="color:rgba(255,255,255,0.65);display:inline-flex;align-items:center;gap:7px;font-size:0.95rem;">
+            <i class="fa-solid fa-phone" style="color:var(--gold);"></i> +91 86672 14152
+          </a>
+        </p>
       </div>
       
       <div class="footer-links">
@@ -909,7 +1006,7 @@
         <ul>
           <li><a href="#">Retail Billing</a></li>
           <li><a href="#">Restaurant POS</a></li>
-          <li><a href="#">Pharmacy Soft</a></li>
+          <li><a href="#">Pharmacy</a></li>
           
         </ul>
       </div>
